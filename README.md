@@ -10,7 +10,7 @@ A [Homebridge](https://github.com/homebridge/homebridge) plugin to add HomeKit c
 Somfy RTS uses a frequency of 433.42 MHz instead of the usual 433.92 MHz, which requires to replace the resonator to increase the range of the transmitter. The range is typically less than 3 meters at 433.92 MHz and more than 20 meters at 433.42 MHz with a 17 cm antenna (quarter wavelength).
 
 ### Parts
-- Raspberry Pi (I personally used a 4 Model B) with micro SD card and power source
+- Raspberry Pi (I personally used a 4 Model B) with micro SD card and power source. Note that Pi 5 does not work as pigpio is not supported.
 - 433 MHz RF transmitter ([example](https://i.pinimg.com/474x/cb/47/a8/cb47a81619e16eb344d89ee03a382dc1.jpg))
 - 433.42 MHz saw resonator ([example](https://www.ebay.com/sch/i.html?_nkw=433.42+resonator))
 - antenna (my transmitter cam with one, but any wire should work)
